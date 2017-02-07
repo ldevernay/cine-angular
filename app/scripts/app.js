@@ -24,6 +24,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/popular', {
+        templateUrl: 'views/popular.html',
+        controller: 'PopularCtrl',
+        controllerAs: 'popular'
+      })
       .otherwise({
         redirectTo: '/'
       });
