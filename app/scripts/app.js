@@ -10,7 +10,7 @@
  */
 angular
   .module('cineAngularApp', [
-    'ngRoute'
+    'ngRoute', 'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     $routeProvider
