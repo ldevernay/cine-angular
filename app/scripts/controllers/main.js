@@ -7,7 +7,8 @@
  * # MainCtrl
  * Controller of the cineAngularApp
  */
-angular.module('cineAngularApp')
+angular
+.module('cineAngularApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
